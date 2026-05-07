@@ -38,17 +38,24 @@ test/
 └── goldens/
     ├── inventory_card_light.png
     └── inventory_card_dark.png
+
 Tests implementados
-Widget Tests
-Test	Propósito
-shows CircularProgressIndicator when Loading	Verifica que el indicador de carga aparece en estado Loading
-shows inventory list when Success	Verifica que los productos del inventario se muestran correctamente
-shows error message when Error	Verifica que el mensaje de error aparece cuando ocurre una excepción
-refresh button reloads inventory	Verifica que al tocar el botón de actualizar se recargan los datos
+
+| Test                                         | Propósito                                                            |
+| -------------------------------------------- | -------------------------------------------------------------------- |
+| shows CircularProgressIndicator when Loading | Verifica que el indicador de carga aparece en estado `Loading`       |
+| shows inventory list when Success            | Verifica que los productos del inventario se muestran correctamente  |
+| shows error message when Error               | Verifica que el mensaje de error aparece cuando ocurre una excepción |
+| refresh button reloads inventory             | Verifica que al tocar el botón de actualizar se recargan los datos   |
+
 Golden Tests
-Test	Propósito
-InventoryCard light theme matches golden	Compara el renderizado del InventoryCard en tema claro
-InventoryCard dark theme matches golden	Compara el renderizado del InventoryCard en tema oscuro
+
+| Test                                     | Propósito                                                 |
+| ---------------------------------------- | --------------------------------------------------------- |
+| InventoryCard light theme matches golden | Compara el renderizado del `InventoryCard` en tema claro  |
+| InventoryCard dark theme matches golden  | Compara el renderizado del `InventoryCard` en tema oscuro |
+
+
 Cómo ejecutar los tests
 Ejecutar toda la suite
 flutter test
